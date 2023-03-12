@@ -8,7 +8,7 @@ import "tailwindcss/tailwind.css";
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider attribute="class">
-      <div className="dark:bg-primaryDark bg-white overflow-hidden dark:text-white/90 text-black ">
+      <div className="dark:bg-primaryDark min-h-screen bg-white overflow-hidden dark:text-white/90 text-black ">
         <Layout>
           <Component {...pageProps} />
         </Layout>

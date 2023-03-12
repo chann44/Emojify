@@ -1,4 +1,5 @@
 import { ReactNode } from "react";
+import { Footer } from "../componets/Footer";
 import { Navbar } from "../componets/Navbar";
 
 interface Props {
@@ -9,7 +10,8 @@ const Layout = ({ children }: Props) => {
   return (
     <>
       <Navbar />
-      <main className="min-h-screen ">{children}</main>
+      <main className="">{children}</main>
+      <Footer />
     </>
   );
 };

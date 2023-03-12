@@ -5,16 +5,7 @@ import { useEffect, useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { GiShipWheel } from "react-icons/gi";
 import { MdOutlineDarkMode } from "react-icons/md";
-import {
-  SlSocialGithub,
-  SlSocialTwitter,
-  SlSocialLinkedin,
-} from "react-icons/sl";
-
-interface ILink {
-  name: string;
-  link: string;
-}
+import { SlSocialGithub } from "react-icons/sl";
 
 interface OutLinkProps {
   Icon: React.ElementType;
@@ -50,7 +41,7 @@ export const Navbar = () => {
           <div className="flex items-center space-x-6">
             <OutLink
               Icon={SlSocialGithub}
-              link={"https://github.com/chann44"}
+              link={"https://github.com/chann44/Emojify"}
             />
           </div>
 

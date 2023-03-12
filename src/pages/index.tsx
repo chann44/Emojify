@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <div className="grid grid-cols-2">
-        <div className="border border-white/30 min-h-screen">
+        <div className="border  border-white/30">
           <Input />
         </div>
         <div className="border border-white/30 ">
